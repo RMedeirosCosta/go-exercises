@@ -8,7 +8,7 @@ var x carambolas
 
 func main() {
 	fmt.Println(x)
-	fmt.Println("%T", x)
+	fmt.Printf("%T\n", x)
 	x = 42
 	fmt.Println(x)
 }
